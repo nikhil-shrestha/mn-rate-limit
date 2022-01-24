@@ -1,17 +1,11 @@
-## Micronaut 3.2.7 Documentation
+## MN Rate Limit
 
-- [User Guide](https://docs.micronaut.io/3.2.7/guide/index.html)
-- [API Reference](https://docs.micronaut.io/3.2.7/api/index.html)
-- [Configuration Reference](https://docs.micronaut.io/3.2.7/guide/configurationreference.html)
-- [Micronaut Guides](https://guides.micronaut.io/index.html)
+Features:
+* Micronaut Redis Integration
 
----
+### Local Redis
+Redis v6 instance with exposed port 6379. Storage is ephemeral.
 
-## Feature rxjava2 documentation
+`docker run --name my-redis -p 6379:6379 -d redis:6-alpine`
 
-- [Micronaut RxJava 2 documentation](https://micronaut-projects.github.io/micronaut-rxjava2/snapshot/guide/index.html)
-
-## Feature http-client documentation
-
-- [Micronaut HTTP Client documentation](https://docs.micronaut.io/latest/guide/index.html#httpClient)
-
+https://hub.docker.com/_/redis
